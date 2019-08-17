@@ -17,7 +17,6 @@ import org.springframework.data.auditing.AuditingHandler;
 import org.springframework.data.auditing.DateTimeProvider;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
-import org.springframework.kafka.test.context.EmbeddedKafka;
 import org.springframework.transaction.annotation.Transactional;
 
 import java.time.Instant;
@@ -32,7 +31,6 @@ import static org.mockito.Mockito.when;
 /**
  * Integration tests for {@link UserService}.
  */
-@EmbeddedKafka
 @SpringBootTest(classes = Test1JHipsterApp.class)
 @Transactional
 public class UserServiceIT {

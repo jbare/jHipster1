@@ -49,8 +49,6 @@ spring:
       hibernate.generate_statistics: false
       hibernate.hbm2ddl.auto: validate
       hibernate.jdbc.time_zone: UTC
-  kafka:
-    bootstrap-servers: ${spring.embedded.kafka.brokers}
   liquibase:
     contexts: test
   mail:

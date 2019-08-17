@@ -9,7 +9,6 @@ import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
-import org.springframework.kafka.test.context.EmbeddedKafka;
 
 import java.util.ArrayList;
 import java.util.HashSet;
@@ -21,7 +20,6 @@ import static org.assertj.core.api.Assertions.assertThat;
 /**
  * Integration tests for {@link UserMapper}.
  */
-@EmbeddedKafka
 @SpringBootTest(classes = Test1JHipsterApp.class)
 public class UserMapperIT {
 

@@ -82,8 +82,6 @@ management:
         auto-time-requests: true
 
 spring:
-  autoconfigure:
-    exclude: org.springframework.boot.actuate.autoconfigure.metrics.jdbc.DataSourcePoolMetricsAutoConfiguration
   application:
     name: test1jHipsterApp
   jmx:
