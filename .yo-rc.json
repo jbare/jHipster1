@@ -1,0 +1,38 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "me.justin.bare"
+    },
+    "jhipsterVersion": "6.2.0",
+    "applicationType": "monolith",
+    "baseName": "test1jHipsterApp",
+    "packageName": "me.justin.bare",
+    "packageFolder": "me/justin/bare",
+    "serverPort": "8080",
+    "authenticationType": "jwt",
+    "cacheProvider": "ehcache",
+    "enableHibernateCache": true,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "prodDatabaseType": "postgresql",
+    "searchEngine": false,
+    "messageBroker": "kafka",
+    "serviceDiscoveryType": "eureka",
+    "buildTool": "maven",
+    "enableSwaggerCodegen": true,
+    "jwtSecretKey": "ODc0N2UyYjZiNzEyY2NiNGZkMmY3NzkzYjE0MjlmZDE3M2UxYTdiNGRiMDVlODlmYTA4Zjk3NTUwYTk0MTAxYjYzMDk4N2JiMmUxNWUyNTMxNGFjODVlMDM2ODAyMzZkMGZmOGI4ZTczNzE0MGMwYzM1MzdjMTczNjU4MTZjOTA=",
+    "useSass": true,
+    "clientPackageManager": "npm",
+    "clientFramework": "angularX",
+    "clientTheme": "none",
+    "clientThemeVariant": "",
+    "testFrameworks": [],
+    "jhiPrefix": "jhi",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [],
+    "enableTranslation": false,
+    "blueprints": []
+  }
+}
